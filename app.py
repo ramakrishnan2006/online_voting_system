@@ -44,7 +44,6 @@ def get_db():
 
 
 @app.route('/')
-@app.route('/')
 def home():
 
     conn = get_db()
